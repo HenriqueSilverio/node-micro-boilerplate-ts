@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Minimal starter files to create a NodeJS app.",
   "engines": {
-    "node": "^16.13.0",
-    "npm": "^8.1.0"
+    "node": "^16.13.1",
+    "npm": "^8.2.0"
   },
   "main": "src/index.ts",
   "scripts": {
@@ -31,11 +31,11 @@
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "dotenv": "^10.0.0",
-    "eslint": "^8.3.0",
+    "eslint": "^8.4.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-plugin-import": "^2.25.3",
-    "husky": "^7.0.0",
+    "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.2"

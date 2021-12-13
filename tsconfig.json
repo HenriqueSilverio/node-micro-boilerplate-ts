@@ -1,8 +1,4 @@
 {
-  "compilerOptions": {
-    "outDir": "dist"
-  },
-  "exclude": ["node_modules", "**/*.spec.ts"],
   "extends": "@tsconfig/node16/tsconfig.json",
-  "include": ["src/**/*"]
+  "include": ["jest.config.ts", "src/**/*"]
 }

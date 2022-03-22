@@ -17,5 +17,16 @@
   "rules": {
     "semi": ["error", "never"],
     "@typescript-eslint/semi": ["error", "never"]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.spec.ts", "src/**/*.test.ts"],
+      "plugins": ["jest"],
+      "extends": ["plugin:jest/style"],
+      "rules": {
+        "@typescript-eslint/unbound-method": "off",
+        "jest/unbound-method": "error"
+      }
+    }
+  ]
 }

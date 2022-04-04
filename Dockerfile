@@ -1,7 +1,7 @@
 #
 # Stage 1: build
 #
-FROM node:16.14.0-alpine@sha256:2c6c59cf4d34d4f937ddfcf33bab9d8bbad8658d1b9de7b97622566a52167f2b AS build
+FROM node:16.14.2-alpine@sha256:32f64135e74ec4dc5d63cc36318444f1d801cd23c44253124f7eccb52c4b89c5 AS build
 
 USER node
 
@@ -20,7 +20,7 @@ RUN npm run build
 #
 # Stage 2: clean
 #
-FROM node:16.14.0-alpine@sha256:2c6c59cf4d34d4f937ddfcf33bab9d8bbad8658d1b9de7b97622566a52167f2b AS clean
+FROM node:16.14.2-alpine@sha256:32f64135e74ec4dc5d63cc36318444f1d801cd23c44253124f7eccb52c4b89c5 AS clean
 
 USER node
 
@@ -35,7 +35,7 @@ RUN npm ci --only=production
 #
 # Stage 3: production
 #
-FROM node:16.14.0-alpine@sha256:2c6c59cf4d34d4f937ddfcf33bab9d8bbad8658d1b9de7b97622566a52167f2b
+FROM node:16.14.2-alpine@sha256:32f64135e74ec4dc5d63cc36318444f1d801cd23c44253124f7eccb52c4b89c5
 
 ARG USERNAME=nonroot
 ARG USERHOME=/home/${USERNAME}

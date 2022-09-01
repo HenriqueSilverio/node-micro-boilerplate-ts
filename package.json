@@ -24,13 +24,13 @@
     "require-env": "^0.2.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
+    "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.0.3",
     "@tsconfig/node16": "^1.0.3",
     "@types/jest": "^28.1.7",
     "@types/node": "^18.7.13",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
-    "@typescript-eslint/parser": "^5.35.1",
+    "@typescript-eslint/parser": "^5.36.1",
     "dotenv": "^16.0.1",
     "eslint": "^8.22.0",
     "eslint-config-airbnb-base": "^15.0.0",

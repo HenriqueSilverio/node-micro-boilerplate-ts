@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Minimal starter files to create a NodeJS app.",
   "engines": {
-    "node": "^16.13.1",
-    "npm": "^8.2.0"
+    "node": "^18.12.1",
+    "npm": "^8.19.2"
   },
   "main": "src/index.ts",
   "scripts": {

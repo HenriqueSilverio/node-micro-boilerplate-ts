@@ -1,9 +1,10 @@
-import type { JestConfigWithTsJest } from 'ts-jest/dist/types'
+import { createDefaultPreset, type JestConfigWithTsJest } from 'ts-jest'
+
+const defaults = createDefaultPreset()
 
 const config: JestConfigWithTsJest = {
-  preset: 'ts-jest',
+  ...defaults,
   setupFiles: ['dotenv/config'],
-  testEnvironment: 'node',
 }
 
 export default config

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Minimal starter files to create a NodeJS app.",
   "engines": {
-    "node": "^20",
-    "npm": "^10"
+    "node": ">=20",
+    "npm": ">=10"
   },
   "main": "src/index.ts",
   "scripts": {
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@tsconfig/node20": "^20.1.4",
+    "@tsconfig/node22": "^22.0.0",
     "@types/jest": "^29.5.13",
     "@types/node": "^22.9.4",
     "@typescript-eslint/eslint-plugin": "^7.12.0",

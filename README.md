@@ -13,7 +13,11 @@ docker build -t boilerplate .
 ### Run
 
 ```bash
-docker run --rm -it --name boilerplate boilerplate
+docker run \
+  --rm -it \
+  --name boilerplate \
+  -e SERVICE_NAME="Node Micro Boilerplate" \
+  boilerplate
 ```
 
 ### Access

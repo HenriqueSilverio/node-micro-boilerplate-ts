@@ -9,8 +9,8 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
-    "start": "npm run build && node --require dotenv/config dist/index.js",
-    "start:dev": "tsx watch --require dotenv/config src/index.ts",
+    "start": "npm run build && node --env-file=.env dist/index.js",
+    "start:dev": "tsx watch --env-file=.env src/index.ts",
     "test": "jest",
     "prepare": "[ ${CI} ] || husky"
   },
@@ -31,7 +31,6 @@
     "@types/node": "^22.13.4",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "dotenv": "^16.4.7",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^18.0.0",

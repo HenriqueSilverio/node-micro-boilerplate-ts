@@ -41,6 +41,6 @@
     "lint-staged": "^16.1.2",
     "ts-jest": "^29.2.5",
     "tsx": "^4.19.2",
-    "typescript": "~5.2.2"
+    "typescript": "~5.9.3"
   }
 }
